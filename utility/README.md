@@ -9,11 +9,3 @@ Symbols:
 -  DD - Device Data
 
 
-### KDE Similarity Metric
-Applicable:
-
-BK, LC, IR, ER
-
-Definition:
-
-dfadfsdaf
