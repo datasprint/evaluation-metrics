@@ -9,7 +9,7 @@ Symbols:
 -  DD - Device Data
 
 
-### KDE Similarity Metric
+### KDE Similarity Metric ([code](https://github.com/datasprint/evaluation-metrics/blob/master/similarity/kde-curve-similarity.py), notebook)
 **Applicable:**
 
 BK, LC, IR, ER
