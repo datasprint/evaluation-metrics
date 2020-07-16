@@ -16,7 +16,7 @@ BK, LC, IR, ER
 
 **Explanation:**
 
-Kernel Density Estimation (KDE) is a way of obtaining an estimated probability density function from a random variable. The curves of two KDE plots can be compared with one another. There are a few metrics that can be used to compare curves. Among others you one can use the curve length difference, partial curve mapping, discrete Frechet distance, dynamic time warping, and the area between curves. This technique would work with any other curves, like ROCAUC curves, or cumulative sum curves. 
+Kernel Density Estimation (KDE) is a way of obtaining an estimated probability density function from a random variable. The curves of two KDE plots can be compared with one another. There are a few metrics that can be used to compare curves. Among others you one can use the curve length difference, partial curve mapping, discrete Frechet distance, dynamic time warping, and the area between curves. This technique would work with any other curves, like ROCAUC curves, or cumulative sum curves. **This method basically compares two distributions with one another.** The most realistic looking feature would have the lowest distance (metric).
 
 **Output:**
 
