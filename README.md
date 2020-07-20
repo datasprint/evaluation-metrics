@@ -1,5 +1,7 @@
 # Evaluation Metrics
 
+#### Metric Types
+
 The evaluation steps can be broken into similarity, utility, validation, and privacy measures. 
 1.	Similarity metrics are anything that helps us to identify how statistically similar the synthetic data is to the original data. 
 1.	Utility metrics identifies how useful the synthetic data is with prediction and modelling tasks.
@@ -14,14 +16,17 @@ Similarity:
 - 	Multivariate Similarity
 - 	Network Similarity
 - 	Inter-data Similarity
+
 Utility:
 - 	Predictive Quality
 - 	Feature Importance
 - 	Model Ranking
+
 Privacy:
 - 	Differential Privacy
 - 	Attribute Disclosure
 - 	Presence Disclosure
+
 Validation:
 - 	Theoretical Constraints
 - 	Expected Distributions
