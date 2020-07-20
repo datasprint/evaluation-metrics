@@ -32,3 +32,21 @@ Kernel Density Estimation (KDE) is a way of obtaining an estimated probability d
 **Visualisation:**
 ![](assets/kde-curve-date.png)
 
+
+
+
+### KDE Similarity Metric [[code](https://github.com/datasprint/evaluation-metrics/blob/master/similarity/kde-curve-similarity.py), notebook]
+**Applicable:**
+
+BK, LC, IR, ER
+
+**Explanation:**
+
+This is a simple metric that calculates the correlation matrix of the orignal and the synthetic dataset. The synthetic correlation matrix is deducted from the original correlation matrix to obtain the absolute sum. This is called the modelling score. The modelling score is compared against a random permuation of the synthetic sample called the permuation score after which a ratio is obtained to identify how much better the correlation matrix of the synthetic dataset is compared to a random correlation matrix benchmark. This is reported as the Benchmark Improvement Percentage.
+
+**Output:**
+
+![](assets/output-matrix.png)
+
+**Visualisation:**
+![](assets/https://docs.google.com/drawings/d/e/2PACX-1vTvk9VM99Z1_tS6hiu_3ptqOIwBtyEDP0N-hmxnYh6MxxyuUSMtyy1kVcrb7K-C2vejp-zQ_ddVZJIb/pub?w=1312&h=548)
