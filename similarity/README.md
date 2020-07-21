@@ -8,6 +8,12 @@ Symbols:
 -  TC - Telecommunications Data
 -  DD - Device Data
 
+Index:
+- [KDE Similarity Metric](#kde)
+- [Correlation Matrix Distance Score](#correlation)
+- [Count Distribution Divergence](#count)
+
+<a name="kde"></a>
 
 ### KDE Similarity Metric [[code](https://github.com/datasprint/evaluation-metrics/blob/master/similarity/kde-curve-similarity.py), notebook]
 **Applicable:**
@@ -34,6 +40,7 @@ Kernel Density Estimation (KDE) is a way of obtaining an estimated probability d
 
 
 
+<a name="correlation"></a>
 
 ### Correlation Matrix Distance Score [[code](https://github.com/datasprint/evaluation-metrics/blob/master/similarity/correlation-matrix-distance-score.py), notebook]
 **Applicable:**
@@ -51,6 +58,8 @@ This is a simple metric that calculates the correlation matrix of the orignal an
 **Visualisation:**
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTvk9VM99Z1_tS6hiu_3ptqOIwBtyEDP0N-hmxnYh6MxxyuUSMtyy1kVcrb7K-C2vejp-zQ_ddVZJIb/pub?w=1312&h=548)
 
+
+<a name="count"></a>
 
 ### Count Distribution Divergence [[code](https://github.com/datasprint/evaluation-metrics/blob/master/similarity/count-distribution-divergence.py), notebook]
 **Applicable:**
