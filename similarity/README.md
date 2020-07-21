@@ -50,3 +50,22 @@ This is a simple metric that calculates the correlation matrix of the orignal an
 
 **Visualisation:**
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTvk9VM99Z1_tS6hiu_3ptqOIwBtyEDP0N-hmxnYh6MxxyuUSMtyy1kVcrb7K-C2vejp-zQ_ddVZJIb/pub?w=1312&h=548)
+
+
+### Count Distribution Divergence [[code](https://github.com/datasprint/evaluation-metrics/blob/master/similarity/count-distribution-divergence.py), notebook]
+**Applicable:**
+
+BK, LC, IR, ER
+
+**Explanation:**
+
+This is essentially a group-by function that sum's the values of discrete features. The weighted percentage deviation is calculated to identify how dfferent the synthetic dataset is to the original dataset. 
+
+**Output:**
+
+![](assets/count-distribution.png)
+
+**Visualisation:**
+![](https://docs.google.com/drawings/d/e/2PACX-1vTx8J_YATPmPLr4jxv9dlqpoi9E56Dabyp2XK07oMkih9266tQUPKTjp00V-x12NnOw_tgA3ABuncvD/pub?w=1746&h=488)
+
+
