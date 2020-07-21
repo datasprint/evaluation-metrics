@@ -13,6 +13,8 @@ Index:
 - [Correlation Matrix Distance Score](#correlation)
 - [Count Distribution Divergence](#count)
 
+-----------------
+
 <a name="kde"></a>
 
 ### KDE Similarity Metric [[code](https://github.com/datasprint/evaluation-metrics/blob/master/similarity/kde-curve-similarity.py), notebook]
