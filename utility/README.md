@@ -11,6 +11,8 @@ Symbols:
 Index:
 - [Averge Drop ROCAU](drop-auc)
 
+-----------------
+
 <a name="drop-auc"></a>
 
 ### Averge Drop ROCAUC [[code](https://github.com/datasprint/evaluation-metrics/blob/master/utility/average-drop-rocauc.py), notebook]
