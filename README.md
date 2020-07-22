@@ -8,6 +8,7 @@ The evaluation steps can be broken into similarity, utility, validation, and pri
 1.	Validation metrics seek to confirm certain theoretical truths that should hold true for the synthetic dataset. 
 1.	Privacy metrics seek to measure how well sensitive attributes and membership presence are hidden.
 
+These methods are tested using a small number of individuals. Please see the [notebook](https://colab.research.google.com/drive/1aFI3vGqpfwS21GQK7C2OT7eK-BCcp5Sr?usp=sharing) for examples. 
 
 #### Example Subcategories
 
